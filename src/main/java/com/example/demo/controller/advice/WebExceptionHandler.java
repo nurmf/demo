@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class WebExceptionHandler {
 
     // TODO 完善例外處理還要等HTTP工廠類別完成
+    // TODO TEST
     @ExceptionHandler(Exception.class)
     public String methodArgumentNotValid(Exception e) {
         // do something
